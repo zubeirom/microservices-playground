@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PlaygroundScheduler/PlaygroundScheduler.iml" filepath="$PROJECT_DIR$/PlaygroundScheduler/PlaygroundScheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservices-playground.iml" filepath="$PROJECT_DIR$/.idea/microservices-playground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restful-playground/restful-playground.iml" filepath="$PROJECT_DIR$/restful-playground/restful-playground.iml" />
+    </modules>
+  </component>
+</project>
