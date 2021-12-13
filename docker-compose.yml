@@ -1,0 +1,20 @@
+version: '3.9'
+
+# Define services
+services:
+
+  # Playground Scheduler
+  scheduler-playground:
+    container_name: scheduler-container
+    build: PlaygroundScheduler/
+    image: playground/scheduler-service
+    restart: always
+
+  # Restful Playground
+  restful-playground:
+    container_name: restful-container
+    build: restful-playground/
+    image: playground/restful-playground
+    ports:
+      - "8082:8080"
+    restart: always
